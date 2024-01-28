@@ -8,7 +8,7 @@ export default function Home() {
         <>
             <Header></Header>
             <Navbar></Navbar>
-            <Link to={'/'}>List Post</Link> |
+            <Link to={'/home'}>List Post</Link> |
             <Link to={'/create-post'}>Create Post</Link> |
             <Link to={'/edit-post'}>Edit Post</Link> |
             <hr/>

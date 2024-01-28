@@ -8,7 +8,7 @@ export default function CreateUser(){
        <>
            <Formik initialValues={
                {
-                   username: '',
+                   username:'',
                    password:''
                }
            } onSubmit={(values)=>{
